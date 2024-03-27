@@ -1,0 +1,30 @@
+# GITHUB COMMAND LINE SAAT INISIALISASI PROJECT
+~git init
+digunakan untuk membuat repositori git terbaru baik yang sudah ada maupun benar benar baru. 
+
+~git add .
+digunakan untuk menambahkan perubahan pada direktori kerja ke area penyimpanan
+
+~git commit -m "pesannya"
+digunakan untuk apa menyimpan perubahan pada direktori kerja yang ditambahkan ke area peyimpanan ke riwayat repositori.
+
+~git branch -M main
+digunakan untuk mengganti nama cabang menjadi "main"
+
+~git remote add origin (link kdoe ssh di repository github)
+digunakan untuk menambahkan repositori GitHub sebagai origin yang memungkinkan kontrol hosting lebih dalam jarak jauh
+
+
+~ Cari fitur seperti pagar dan lainnya di md pake cheatsheet markdown (md)
+
+# GITHUB COMMAND LINE SAAT MAINTENANCE/ MONITORING/ PROJECT (TAMBAH KURANG ISI FILE)
+untuk update teks di github
+~ git add .
+~ git commit -m "pesannya"
+~ git push
+
+Setiap muat file baru di terminal 
+1. code .
+2. cd . .
+3. code .
+4. mkdir pert2
