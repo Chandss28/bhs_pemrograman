@@ -1,31 +1,21 @@
-# GITHUB COMMAND LINE SAAT INISIALISASI PROJECT
+# NOTES FOR ME#
 
-~git init
-digunakan untuk apa
-
-~git add .
-digunakan untuk apa
-
-~git commit -m "pesannya"
-digunkaan untuk apa
-
-~git branch -M main
-digubakan untuk apa
-
-~git remote add origin (link kdoe ssh di repository github)
-digunakan untuk apa
-
-
-fitur di md pake cheatsheet markdown (md)
+# Untuk buka file github dari terminal
+1. ~ ls
+jd  jd.pub  perkuliahan  pert2  snap
+2. ➜  ~ cd perkuliahan
+3. ➜  perkuliahan cd bhs_pemrograman
+4. ➜  bhs_pemrograman git:(main) pert2.
+5. ➜  pert2 git:(main) code .
 
 # GITHUB COMMAND LINE SAAT MAINTENANCE/ MONITORING/ PROJECT (TAMBAH KURANG ISI FILE)
+untuk update teks di github
+1. ~ git add .
+2. ~ git commit -m "pesannya"
+3. ~ git push
 
-~ git add .
-~ git commit -m "pesannya"
-~ git push
 
-Setiap muat file baru di terminal 
-1. code .
-2. cd . .
-3. code .
-4. mkdir pert2
+# ADDITIONAL
+1. ~ code . = buka vscode
+2. ~ cd . ./ cd = kembali ke folder sebelumnya
+3. ~ mkdir = buat folder baru
