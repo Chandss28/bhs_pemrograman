@@ -31,8 +31,8 @@ untuk update teks di github
 2. ~ git commit -m "pesannya"
 3. ~ git push
 
-Setiap muat file baru di terminal 
-1. code .
-2. cd . .
-3. code .
-4. mkdir pert2
+
+# ADDITIONAL
+~ code . = buka vscode
+~ cd . ./ cd = kembali ke folder sebelumnya
+~ mkdir = buat folder baru
