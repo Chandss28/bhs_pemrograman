@@ -1,21 +1,21 @@
 # GITHUB COMMAND LINE SAAT INISIALISASI PROJECT
-~ git init
+* ~ git init
 digunakan untuk membuat repositori git terbaru baik yang sudah ada maupun benar benar baru. 
 
-~ git add .
+* ~ git add .
 digunakan untuk menambahkan perubahan pada direktori kerja ke area penyimpanan
 
-~ git commit -m "pesannya"
+* ~ git commit -m "pesannya"
 digunakan untuk menyimpan perubahan pada direktori kerja yang ditambahkan ke area peyimpanan ke riwayat repositori.
 
-~ git branch -M main
+* ~ git branch -M main
 digunakan untuk mengganti nama cabang menjadi "main"
 
-~ git remote add origin (link kdoe ssh di repository github)
+* ~ git remote add origin (link kdoe ssh di repository github)
 digunakan untuk menambahkan repositori GitHub sebagai origin yang memungkinkan kontrol hosting lebih dalam jarak jauh
 
 
-~ Cari fitur seperti pagar dan lainnya di md pake cheatsheet markdown (md)
+* Cari fitur seperti pagar dan lainnya di md pake cheatsheet markdown (md)
 
 # Untuk buka file github dari terminal
 1. ~ ls
@@ -27,12 +27,11 @@ jd  jd.pub  perkuliahan  pert2  snap
 
 # GITHUB COMMAND LINE SAAT MAINTENANCE/ MONITORING/ PROJECT (TAMBAH KURANG ISI FILE)
 untuk update teks di github
-1. ~ git add .
-2. ~ git commit -m "pesannya"
-3. ~ git push
-
+* ~ git add .
+* ~ git commit -m "pesannya"
+* ~ git push
 
 # ADDITIONAL
-1. ~ code . = buka vscode
-2. ~ cd . ./ cd = kembali ke folder sebelumnya
-3. ~ mkdir = buat folder baru
+* ~ code . = buka vscode
+* ~ cd . ./ cd = kembali ke folder sebelumnya
+* ~ mkdir = buat folder baru

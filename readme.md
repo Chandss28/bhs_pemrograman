@@ -11,12 +11,11 @@ jd  jd.pub  perkuliahan  pert2  snap
 
 # GITHUB COMMAND LINE SAAT MAINTENANCE/ MONITORING/ PROJECT (TAMBAH KURANG ISI FILE)
 untuk update teks di github
-1. ~ git add .
-2. ~ git commit -m "pesannya"
-3. ~ git push
-
+* ~ git add .
+* ~ git commit -m "pesannya"
+* ~ git push
 
 # ADDITIONAL
-1. ~ code . = buka vscode
-2. ~ cd . ./ cd = kembali ke folder sebelumnya
-3. ~ mkdir = buat folder baru
+* ~ code . = buka vscode
+* ~ cd . ./ cd = kembali ke folder sebelumnya
+* ~ mkdir = buat folder baru
