@@ -6,7 +6,7 @@ digunakan untuk membuat repositori git terbaru baik yang sudah ada maupun benar 
 digunakan untuk menambahkan perubahan pada direktori kerja ke area penyimpanan
 
 ~ git commit -m "pesannya"
-digunakan untuk apa menyimpan perubahan pada direktori kerja yang ditambahkan ke area peyimpanan ke riwayat repositori.
+digunakan untuk menyimpan perubahan pada direktori kerja yang ditambahkan ke area peyimpanan ke riwayat repositori.
 
 ~ git branch -M main
 digunakan untuk mengganti nama cabang menjadi "main"
@@ -26,7 +26,7 @@ jd  jd.pub  perkuliahan  pert2  snap
 5. ➜  pert2 git:(main) code .
 
 # GITHUB COMMAND LINE SAAT MAINTENANCE/ MONITORING/ PROJECT (TAMBAH KURANG ISI FILE)
-untuk update teks di githubcd
+untuk update teks di github
 ~ git add .
 ~ git commit -m "pesannya"
 ~ git push
