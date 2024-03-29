@@ -1,4 +1,5 @@
-# NOTES FOR ME#
+* NOTES FOR ME
+https://learn.microsoft.com/id-id/azure/devops/project/wiki/markdown-guidance?view=azure-devops
 
 # Untuk buka file github dari terminal
 1. ~ ls
