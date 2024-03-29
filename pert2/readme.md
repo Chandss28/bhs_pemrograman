@@ -33,6 +33,6 @@ untuk update teks di github
 
 
 # ADDITIONAL
-~ code . = buka vscode
-~ cd . ./ cd = kembali ke folder sebelumnya
-~ mkdir = buat folder baru
+1. ~ code . = buka vscode
+2. ~ cd . ./ cd = kembali ke folder sebelumnya
+3. ~ mkdir = buat folder baru
