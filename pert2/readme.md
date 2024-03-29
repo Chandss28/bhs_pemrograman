@@ -27,9 +27,9 @@ jd  jd.pub  perkuliahan  pert2  snap
 
 # GITHUB COMMAND LINE SAAT MAINTENANCE/ MONITORING/ PROJECT (TAMBAH KURANG ISI FILE)
 untuk update teks di github
-~ git add .
-~ git commit -m "pesannya"
-~ git push
+1. ~ git add .
+2. ~ git commit -m "pesannya"
+3. ~ git push
 
 Setiap muat file baru di terminal 
 1. code .
