@@ -1,7 +1,7 @@
 # Mengenal Bahasa Pemrograman 
 Bahasa pemrograman adalah seperangkat aturan dan sintaks yang digunakan untuk menulis instruksi atau kode yang dapat dipahami oleh komputer. Tujuan utama dari bahasa pemrograman adalah untuk menginstruksikan komputer agar melakukan tugas tertentu atau mengeksekusi program-program yang telah ditulis.
 
-#Jenis - jenis Bahasa Pemrograman
+# Jenis - jenis Bahasa Pemrograman
 1. Bahasa Pemrograman Tingkat Tinggi (High-Level Programming Languages): Bahasa pemrograman yang lebih mudah dipahami oleh manusia dan lebih independen terhadap arsitektur perangkat keras. Contohnya termasuk Python, Java, dan C++.
 
 2. Bahasa Pemrograman Tingkat Rendah (Low-Level Programming Languages): Bahasa pemrograman yang lebih dekat dengan bahasa mesin dan lebih tergantung pada arsitektur perangkat keras. Contoh utamanya adalah Bahasa Rakitan (Assembly Language).
