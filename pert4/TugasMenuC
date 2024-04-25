@@ -1,53 +1,74 @@
 #include <iostream>
+
 using namespace std;
 
-
-void tambah(int angka1, int angka2){
-    cout << "Tambah" << angka1 - angka2 << endl;
+void tambah(double add1, double add2) {
+    cout << "Hasil tambah: " << (add1 + add2) << endl;
 }
 
-void kurang(int angka1, int angka2){
-    cout << "Kurang" << angka1 - angka2 << endl;
+void kurang(double sub1, double sub2) {
+    cout << "Hasil kurang: " << (sub1 - sub2) << endl;
 }
 
-void kali(int angka1, int angka2){
-    cout << "Kali" << angka1 - angka2 << endl;
+void kali(double mul1, double mul2) {
+    cout << "Hasil kali: " << (mul1 * mul2) << endl;
 }
 
-void bagi(int angka1, int angka2){
-    cout << "Bagi" << angka1 - angka2 << endl;
-}
-int main() {
-    char op;
-    float num1, num2;
-
-    cout << "Masukkan operator (+, -, *, /): ";
-    cin >> op;
-
-    cout << "Masukkan dua angka: ";
-    cin >> num1 >> num2;
-
-    switch(op) {
-        case '+':
-            cout << "Hasil penambahan: " << num1 + num2;
-            break;
-        case '-':
-            cout << "Hasil pengurangan: " << num1 - num2;
-            break;
-        case '*':
-            cout << "Hasil perkalian: " << num1 * num2;
-            break;
-        case '/':
-            if(num2 != 0)
-                cout << "Hasil pembagian: " << num1 / num2;
-            else
-                cout << "Tidak bisa melakukan pembagian dengan nol";
-            break;
-        default:
-            // Operator yang dimasukkan tidak valid
-            cout << "Operator yang dimasukkan tidak valid";
-            break;
+void bagi(double div1, double div2) {
+    if (div2 != 0) {
+        cout << "Hasil bagi: " << (div1 / div2) << endl;
+    } else {
+        cout << "Error" << endl;
     }
+}
+
+int main() {
+    int pilihan;
+    char ulang;
+
+    do {
+        cout << "1. tambah" << endl;
+        cout << "2. kurang" << endl;
+        cout << "3. kali" << endl;
+        cout << "4. bagi" << endl;
+
+        cout << "Pilihan anda: ";
+        cin >> pilihan;
+
+        double operand1, operand2;
+
+        switch (pilihan) {
+            case 1:
+                cout << "Masukkan dua bilangan untuk ditambah: ";
+                cin >> operand1 >> operand2;
+                tambah(operand1, operand2);
+                break;
+            case 2:
+                cout << "Masukkan dua bilangan untuk dikurangkan: ";
+                cin >> operand1 >> operand2;
+                kurang(operand1, operand2);
+                break;
+            case 3:
+                cout << "Masukkan dua bilangan untuk dikali: ";
+                cin >> operand1 >> operand2;
+                kali(operand1, operand2);
+                break;
+            case 4:
+                cout << "Masukkan dua bilangan untuk dibagi: ";
+                cin >> operand1 >> operand2;
+                bagi(operand1, operand2);
+                break;
+            default:
+                cout << "Pilihan tidak valid." << endl;
+                break;
+        }
+
+        cout << endl;
+        cout << "Ingin memilih menu lain (y/t)? ";
+        cin >> ulang;
+        cout << endl;
+
+    } while (ulang != 't' && ulang != 'T');
 
     return 0;
 }
