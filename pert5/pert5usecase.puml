@@ -1,35 +1,22 @@
 @startuml Pert5
-    left to right direction
 
-    actor User as "User"
+left to right direction
 
-    rectangle "Source Code Pert4" {
-        usecase "Input Angka" as input
-        usecase "Choice Menu" as menu
-        usecase "Call void tambah" as tambah
-        usecase "Call void kurang" as kurang
-        usecase "Call void bagi" as bagi
-        usecase "Call void kali" as kali
-        usecase "Call exit" as keluar
-    }
+actor User as "User"
 
-    User --> input
-    input --> menu
-    menu --> tambah
-    tambah --> keluar
+rectangle "Source Code Pert4" {
+    usecase "Input Angka" as input
+    usecase "Choice Menu" as menu
+    usecase "Call void tambah" as tambah
+    usecase "Input Angka2" as input2
+    usecase "Output" as output
+    usecase "Exit" as exit
+}
 
-    User --> input
-    input --> menu
-    menu --> kurang
-    kurang --> keluar
+User --> menu
+menu --> tambah
+tambah --> input
+tambah --> 
+input --> exit
 
-    User --> input
-    input --> menu
-    menu --> bagi
-    bagi --> keluar
-
-    User --> input
-    input --> menu
-    menu --> kali
-    kali --> keluar
 @enduml
