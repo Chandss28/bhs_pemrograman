@@ -2,54 +2,43 @@
 
 using namespace std;
 
-void postfix(){
+void postfixinc() {
     int a = 1;
-    cout << a << " Ini nilai awal i" << endl;
-    cout << ++a << " Ini nilai prefix" << endl;
-    cout << a++ << " Ini nilai postfix" << endl
+    cout << a << " ini nilai awal i" << endl;
+    cout << ++a << " ini nilai prefix" << endl;
+    cout << a++ << " ini nilai postfix" << endl;
 }
 
-int main(){
-      cout << "iteration statement "<< endl;
-      cout << "penggunaan for "<< endl;
-
-      int a = 1;
-      int b = 1;
-     //  apa bedanya int a = 1 itu di luar for dengan di dalam for 
-
-     for( a; a <= 5; a++)// a++ postfix
-     {
-         for(b ; b <= a; ++b)// ++b prefix
-         {
-             cout << b << endl;
-         }
-     }
-
-     cout << endl;
-
-
-     cout << "ini postfix prefix "<< endl;
-     postfix();
-     cout << "ini nested if "<< endl;
-     nestedif();
-     cout << "ini nested if "<< endl;
-
-    
-
-
-     return 0;
-
-}
-
-void nestedfor(){}
-int main(){
-    int i = 1;
-    int j = 1;
-    for(i; i<=3; i++){ //++dibelakang dsbt postfix increment
-        for(j; j<=1;++j){ //++didepan dsbt prefix increment
-            cout << j << " ";
+void nestedfor(){
+    int i =2;
+    int j =0;
+    for (i; i<=2; ++i){ //postfix increment ?
+        for (j; j<=i;++j){ //prefix increment ?
+            cout << j << endl;
         }
     }
-    cout << endl; 
+    cout << endl;
+}
+
+void nestedif(){
+    int a = 10;
+    if (a <= 5) {
+        cout << "nilai awal" << endl;
+        if (a <= 5) {
+            cout << "nilai lebih kecil" << endl;
+
+            if (a >= 5) {
+                cout << "nilai lebih besar" << endl;
+            }
+        } else {
+            cout << "invalid" << endl;
+        }
+    } 
+}
+
+int main(){
+    nestedfor();
+    postfixinc();
+    nestedif();
     return 0;
 }

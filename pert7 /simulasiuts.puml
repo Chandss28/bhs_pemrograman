@@ -1,0 +1,31 @@
+@startuml
+start
+:Input Pilihan1;
+if (Pilihan1 == 1) then (true)
+  :Tampilkan Menu Makanan;
+  :Input Pilihan2;
+  if (Pilihan2 == 1 or Pilihan2 == 2) then (true)
+    :Masukkan Jumlah Pesanan;
+  endif
+  if (Pilihan2 == 1) then (true)
+    :Hitung Total Harga Pecel;
+  else
+    :Hitung Total Harga Nasi;
+  endif
+else if (Pilihan1 == 2) then (true)
+  :Tampilkan Menu Minuman;
+  :Input Pilihan2;
+  if (Pilihan2 == 1 or Pilihan2 == 2) then (true)
+    :Masukkan Jumlah Pesanan;
+  endif
+  if (Pilihan2 == 1) then (true)
+    :Hitung Total Harga Teh;
+  else
+    :Hitung Total Harga Jeruk;
+  endif
+else
+  :Keluar Program;
+endif
+:Ulangi jika Pilihan1 != 3;
+stop
+@enduml
