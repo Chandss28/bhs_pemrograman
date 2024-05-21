@@ -1,0 +1,19 @@
+@startuml UTS
+
+[*] --> MENU
+MENU : 1. Tambah
+MENU : 2. Kurang
+MENU : 3. Kali
+MENU : 4. Bagi
+MENU --> InputTambah
+InputTambah : Masukkan Angka Pertama dan Masukkan Angka Kedua
+InputTambah --> InputKurang 
+InputKurang : Masukkan Angka Pertama dan Masukkan Angka Kedua
+InputKurang --> InputKali
+InputKali : Masukkan Angka Pertama dan Masukkan Angka Kedua
+InputKali --> InputBagi
+InputBagi : Masukkan Angka Pertama dan Masukkan Angka Kedua
+InputBagi -->SYSTEMCLOSE
+SYSTEMCLOSE :   Program Selesai
+
+@enduml
