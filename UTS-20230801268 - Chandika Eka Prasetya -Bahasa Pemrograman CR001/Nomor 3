@@ -1,0 +1,5 @@
+Kode diatas merupakan nested loop yang menggunakan perulangan for
+1. Pada tahap pertama ada tahapan untuk perulangan variabel i, dimulai dari 1 dan hingga batas variabel, lalu terdapat dua perulangan bersarang lagi
+2. Pada perulangan variabel s dimulai dari nilai i dan terus bertambah hingga kurang dari nilai n, mencetak spasi sesuai jumlah nilai i
+3. Variabel j dimulai dari 1 dan bertambah hingga nilai akhir yang sama dengan i yang tujuannya untuk mencetak sejumlah titik "." setiap baris dimulai dari satu hingga jumlah sesuai i
+Hingga pada akhirnya akan menghasilkan pola segitiga terbalik dari titik-titik "." yang jumlahnya bergantung pada nilai yang dimasukkan oleh user pada input n

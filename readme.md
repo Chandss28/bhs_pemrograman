@@ -19,3 +19,6 @@ untuk update teks di github
 * ~ code . = buka vscode
 * ~ cd . ./ cd = kembali ke folder sebelumnya
 * ~ mkdir = buat folder baru
+
+.
+.
