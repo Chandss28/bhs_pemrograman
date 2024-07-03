@@ -2,4 +2,7 @@ pert8/db/mariadb/*
 pert8/db/postgres/*
 pert8/db/mongo/*
 pert8/db/redis/*
-
+db/
+src/
+pert10/db/data/ib_logfile1/*
+pert10/db/data/ib_logfile0/*
