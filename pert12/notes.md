@@ -10,3 +10,6 @@ show : tampilin data berdasarkan id
 edit : ubah data berdasarkan id, dll
 
 delete : hapus id
+
+## UAS PAK JEF
+1 orang satu soal, dan analisa studi kasus soall
