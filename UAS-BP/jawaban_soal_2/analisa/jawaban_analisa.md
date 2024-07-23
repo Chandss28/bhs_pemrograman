@@ -1,0 +1,3 @@
+# Exception Handling dalam Python
+
+Exception Handling adalah mekanisme untuk menangani kesalahan atau kondisi luar biasa yang mungkin terjadi selama eksekusi program. Tanpa penanganan yang tepat, program bisa berhenti tiba-tiba ketika terjadi kesalahan. Exception handling memungkinkan kita menangani kesalahan dengan cara yang terkendali, memperbaiki atau menginformasikan pengguna tentang masalah tersebut.
